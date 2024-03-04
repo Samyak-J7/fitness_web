@@ -7,7 +7,7 @@ function Footer() {
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">About Us</h2>
           <p className="mb-4">
-          At FitX, we believe that fitness is not just a journey, but a lifestyle. Whether you're a seasoned athlete or just beginning your fitness journey, we're here to support and guide you every step of the way.
+          At FitX, we believe that fitness is not just a journey, but a lifestyle. Whether you are a seasoned athlete or just beginning your fitness journey, we are here to support and guide you every step of the way.
           </p>
         </div>
         <div>
