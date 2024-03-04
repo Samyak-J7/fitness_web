@@ -1,0 +1,64 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "FitX Bootcamp",
+      "slug": "fitx-bootcamp",
+      "description": "Get into shape with our intensive bootcamp designed to torch calories and build strength.",
+      "price": 99.99,
+      "instructor": "Coach Sarah",
+      "isFeatured": true,
+      "image": "/courses/bootcamp.jpg" 
+    },
+    {
+      "id": 2,
+      "title": "Strength Training",
+      "slug": "strength-training",
+      "description": "Learn the fundamentals of strength training to sculpt your body and increase muscle mass.",
+      "price": 109.99,
+      "instructor": "Coach Mike",
+      "isFeatured": false,
+      "image": "/courses/strength.jpg" 
+    },
+    {
+      "id": 3,
+      "title": "High Intensity Interval Training (HIIT)",
+      "slug": "hiit-training",
+      "description": "Experience a full-body workout with our HIIT course, guaranteed to maximize calorie burn and improve endurance.",
+      "price": 119.99,
+      "instructor": "Coach Emily",
+      "isFeatured": true,
+      "image": "/courses/hiit.jpg" 
+    },
+    {
+      "id": 4,
+      "title": "Yoga for Flexibility",
+      "slug": "yoga-for-flexibility",
+      "description": "Improve your flexibility and find inner peace with our guided yoga sessions suitable for all levels.",
+      "price": 129.99,
+      "instructor": "Yogi David",
+      "isFeatured": false,
+      "image": "/courses/yoga.jpeg"
+    },
+    {
+      "id": 5,
+      "title": "Nutrition Essentials",
+      "slug": "nutrition-essentials",
+      "description": "Learn the fundamentals of nutrition to fuel your body and optimize your fitness results.",
+      "price": 139.99,
+      "instructor": "Nutritionist Sophia",
+      "isFeatured": false,
+      "image": "/courses/nutrition.png"
+    },
+    {
+      "id": 6,
+      "title": "Mindfulness Meditation",
+      "slug": "mindfulness-meditation",
+      "description": "Calm your mind and reduce stress with our mindfulness meditation course, perfect for enhancing overall well-being.",
+      "price": 149.99,
+      "instructor": "Mindfulness Coach Alex",
+      "isFeatured": true,
+      "image": "/courses/meditation.jpg"
+    }
+  ]
+}
