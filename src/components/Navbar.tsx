@@ -39,7 +39,7 @@ function Navbar({ className }: { className?: string }) {
 
             </MenuItem>
             </Link>
-            <SignedIn><UserButton /></SignedIn>
+            <SignedIn><UserButton afterSignOutUrl='/' /></SignedIn>
             <SignedOut><SignInButton/></SignedOut>
             
                     
