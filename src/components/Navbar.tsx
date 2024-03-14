@@ -1,5 +1,5 @@
 'use client';
-
+import { SignIn, SignInButton, SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
 import React, { useState } from "react";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/navbar-menu";
 import { cn } from "@/utils/cn";
@@ -36,9 +36,13 @@ function Navbar({ className }: { className?: string }) {
             </MenuItem>
             <Link href={"/contact"}>
             <MenuItem setActive={setActive} active={active} item="Contact Us">
-            
+
             </MenuItem>
             </Link>
+            <SignedIn><UserButton /></SignedIn>
+            <SignedOut><SignInButton/></SignedOut>
+            
+                    
         </Menu>
     </div>
   )
