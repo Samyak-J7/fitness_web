@@ -40,7 +40,7 @@ function Navbar({ className }: { className?: string }) {
             </MenuItem>
             </Link>
             <SignedIn><UserButton afterSignOutUrl='/' /></SignedIn>
-            <SignedOut><SignInButton/></SignedOut>
+            <SignedOut><SignInButton mode="modal" /></SignedOut>
             
                     
         </Menu>
